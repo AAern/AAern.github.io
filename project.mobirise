@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Endangered Species",
-    "currentPage": "CONTACT.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -25,7 +25,9 @@
     "uniqCompNum": 97,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/bear-face-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -3072,6 +3074,13 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "46px"
+            }
+          },
           "_anchor": "header2-2e",
           "_params": {
             "imageSize": "47",
@@ -3117,14 +3126,7 @@
           },
           "title": "แมวลายหินอ่อน <br>Pardofelis marmorata",
           "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Pardofelis marmorata1.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "46px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Pardofelis marmorata1.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
     },
@@ -3223,6 +3225,16 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "21px"
+            }
+          },
           "_anchor": "header1-2f",
           "_params": {
             "parallax": true,
@@ -3245,23 +3257,21 @@
           },
           "title": "FULL SCREEN INTRO",
           "text": "&nbsp;<span style=\"font-style: normal;\">ลักษณะ : <br>แมวลายหินอ่อนเป็นแมวป่าขนาดกลาง น้ำหนักตัวเมื่อโตเต็มที่ ๔-๕ กิโลกรัม ใบหูเล็กมนกลมมีจุดด้านหลังใบหู หางยาวมีขนหนาเป็นพวงเด่นชัด สีขนโดยทั่วไปเป็นสีน้ำตาลอมเหลือง มีลายบนลำตัวคล้ายลายหินอ่อน ด้านใต้ท้องจะออกสีเหลืองมากกว่า ด้านหลังขาและหางมีจุดดำ เท้ามีพังผืดยืดระหว่างนิ้ว นิ้วมีปลอกเล็บสองชั้น และเล็บพับเก็บได้ในปลอกเล็บทั้งหมด<br><br>อุปนิสัย : <br>ออกหากินในเวลากลางคืน ส่วนใหญ่มักอยู่บนต้นไม้ อาหารได้แก่สัตว์ขนาดเล็กแทบทุกชนิดตั้งแต่แมลง จิ้งจก ตุ๊กแก งู นก หนู กระรอก จนถึงลิงขนาดเล็ก นิสัยค่อนข้าดุร้าย<br></span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "left"
-            },
-            ".mbr-section-lead SPAN": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "21px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "21px"
+            }
+          },
           "_anchor": "header1-2g",
           "_params": {
             "parallax": true,
@@ -3284,21 +3294,26 @@
           },
           "title": "FULL SCREEN INTRO",
           "text": "<span style=\"font-style: normal;\"><span style=\"line-height: 1.5;\">ที่อยู่อาศัย :&nbsp;</span><br>ในประเทศไทยพบอยู่ตามป่าดงดิบเทือกเขาตะนาวศรีและป่าดงดิบชื้น ในภาคใต้<br><br>เขตแพร่กระจาย : <br>แมวป่าชนิดนี้มีเขตแพร่กระจายตั้งแต่ประเทศเนปาล สิกขิม แคว้นอัสสัม ประเทศอินเดีย ผ่านทางตอนเหนือของพม่า ไทย อินโดจีน ลงไปตลอดแหลมมลายู สุมาตราและบอร์เนียว</span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "left",
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "21px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "21px"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "21px"
+            }
+          },
           "_anchor": "header1-2h",
           "_params": {
             "parallax": true,
@@ -3321,20 +3336,7 @@
           },
           "title": "FULL SCREEN INTRO",
           "text": "<span style=\"font-style: normal;\"><br>สถานภาพ : <br>แมวลายหินอ่อนจัดเป็นสัตว์ป่าชนิดหนึ่งใน ๑๕ ชนิดของประเทศไทย และอนุสัญญา CITES จัดอยู่ใน Appendix I<br><br>สาเหตุของการใกล้จะสูญพันธุ์: <br>เนื่องจากแมวลายหินอ่อนเป็นสัตว์ที่หาได้ยาก และมีปริมาณในธรรมชาติค่อนข้างต่ำ เมื่อเทียบกับแมวป่าชนิดอื่นๆ จำนวนจึงน้อยมาก และเนื่องจากถิ่นที่อยู่อาศัยถูกทำลาย และถูกล่าหรือจับมาเป็นสัตว์เลี้ยงที่มีราคาสูง จำนวนแมวลายหินอ่อนจึงน้อยลง ด้านชีววิทยาของแมวป่าชนิดนี้ยังรู้กันน้อยมาก</span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "left",
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "21px"
-            },
-            ".mbr-section-lead SPAN": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "21px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         }
       ]
     },
@@ -3433,6 +3435,13 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "46px"
+            }
+          },
           "_anchor": "header2-2j",
           "_params": {
             "imageSize": 50,
@@ -3478,14 +3487,7 @@
           },
           "title": "ปูทูลกระหม่อม<br>Mealy Crab",
           "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Mealy Crab1.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "46px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Mealy Crab1.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
     },
@@ -3584,6 +3586,19 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "font-size": "21px",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "21px"
+            }
+          },
           "_anchor": "header1-2k",
           "_params": {
             "parallax": true,
@@ -3606,26 +3621,23 @@
           },
           "title": "FULL SCREEN INTRO",
           "text": "<span style=\"font-style: normal;\">ปูทูลกระหม่อม หรือ ปูแป้ง (Mealy Crab;ชื่อวิทยาศาสตร์:Thaipotamon Chulabhorn) เป็นปูน้ำจืดที่ค้นพบในประเทศไทยเมื่อปี พ.ศ. 2536 ที่ป่าดูนลำพัน อำเภอนาเชือก จ.มหาสารคาม&nbsp;โดยศาสตราจารย์ไพบูลย์ นัยเนตร ภาควิชาชีววิทยา คณะวิทยาศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ร่วมกับผู้เชี่ยวชาญจากพิพิธภัณฑ์ประวัติศาสตร์ทางธรรมชาติ ประเทศเนเธอร์แลนด์ และเป็นปีที่ปีที่สมเด็จพระเจ้าลูกเธอ เจ้าฟ้าจุฬาภรณวลัยลักษณ์ อัครราชกุมารี ทรงเจริญพระชนมายุครบ 36 พรรษา จึงขอพระราชทานชื่อว่า \"ปูทูลกระหม่อม\" และได้กำหนดให้เป็นสัตว์ป่าคุ้มครอง ลำดับที่ 14 ของสัตว์ป่าจำพวกไม่มีกระดูกสันหลังในกฎกระทรวง ฉบับที่ 11(พ.ศ. 2543)</span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "left",
-              "font-size": "21px",
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
-            },
-            ".mbr-section-lead SPAN": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "21px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "21px"
+            }
+          },
           "_anchor": "header1-2l",
           "_params": {
             "parallax": true,
@@ -3648,17 +3660,7 @@
           },
           "title": "FULL SCREEN INTRO",
           "text": "<span style=\"font-style: normal;\">ลักษณะ :</span><span style=\"font-style: normal;\"><br>รูป ร่างคล้ายปูนามีสีสันสวยงาม มี 4 สีคือ ม่วง แสด เหลือง ขาว โดยกระดองมีสีม่วงเปลือกมังคุด ผสมพันธุ์นาน </span><br><span style=\"font-style: normal;\">4-5 ชั่วโมง ไข่จะฟองใหญ่กว่าปูนากว่า 3 - 4 เท่า<br></span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "left"
-            },
-            ".mbr-section-lead SPAN": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "21px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         }
       ]
     },
